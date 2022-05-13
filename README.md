@@ -11,6 +11,8 @@ You, too can experience the sickening exposure to 3rd-person reality.
 
 Here is a simple illustration of the concept:
 ![img.png](img.png)
+
+With this you can do anything you would normally do, just way worse.
 ## Why would anyone want this
 Most people don't, you can play around with time delays and such and someone will probably throw up.
 
