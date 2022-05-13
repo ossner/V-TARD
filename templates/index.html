@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TARD</title>
+    <title>V-TARD</title>
 </head>
 <body>
 <script>addEventListener("click", event => {
     const btn = event.target;
     if (btn.tagName.toLowerCase() !== "button") return;
-    const id = btn.textContent;
-    const div = document.getElementById(id);
+    const div = document.getElementById("feed");
     if (div.requestFullscreen)
         div.requestFullscreen();
     else if (div.webkitRequestFullscreen)
@@ -17,8 +16,8 @@
     else if (div.msRequestFullScreen)
         div.msRequestFullScreen();
 });</script>
-    <img id="feed" src="{{ url_for('video_feed') }}"
-         alt="">
-<button>feed</button>
+<img id="feed" src="{{ url_for('video_feed') }}"
+     alt="">
+<button>fullscreen</button>
 </body>
 </html>
